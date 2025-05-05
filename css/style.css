@@ -1,5 +1,205 @@
-.mainIndex h1 {
-  background-color: aqua;
+/*
+background-color: rgba(0, 255, 255, 0.3 );
+*/
+/*-----------------------DEKSTOP------------------------*/
+/*reset de css || elimina los estilos por defecto de los navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* max-width: 1300px; */
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1, h2, h3 {
+  font-family: "Sour Gummy", serif;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+p {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.5rem;
+}
+
+.navegador_y_logo {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-image: linear-gradient(to left, rgba(0, 255, 255, 0.5), rgba(0, 255, 255, 0.05));
+}
+.navegador_y_logo .nav-itemInicio {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+  text-transform: capitalize;
+  color: auto;
+  margin-left: 10px;
+  transform: scale(1, 1);
+  transition: color 0.2s ease, text-decoration 0.2s ease, transform 0.2s ease;
+}
+.navegador_y_logo .nav-itemInicio:hover {
+  color: white;
+  text-decoration: underline;
+  transform: scale(1.2, 1.2);
+}
+.navegador_y_logo .nav-itemNosotros {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+  text-transform: capitalize;
+  color: auto;
+  margin-left: 10px;
+  transform: scale(1, 1);
+  transition: color 0.2s ease, text-decoration 0.2s ease, transform 0.2s ease;
+}
+.navegador_y_logo .nav-itemNosotros:hover {
+  color: white;
+  text-decoration: underline;
+  transform: scale(1.2, 1.2);
+}
+.navegador_y_logo .nav-itemProductos {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+  text-transform: capitalize;
+  color: auto;
+  margin-left: 10px;
+  transform: scale(1, 1);
+  transition: color 0.2s ease, text-decoration 0.2s ease, transform 0.2s ease;
+}
+.navegador_y_logo .nav-itemProductos:hover {
+  color: white;
+  text-decoration: underline;
+  transform: scale(1.2, 1.2);
+}
+.navegador_y_logo .nav-itemServicios {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+  text-transform: capitalize;
+  color: auto;
+  margin-left: 10px;
+  transform: scale(1, 1);
+  transition: color 0.2s ease, text-decoration 0.2s ease, transform 0.2s ease;
+}
+.navegador_y_logo .nav-itemServicios:hover {
+  color: white;
+  text-decoration: underline;
+  transform: scale(1.2, 1.2);
+}
+.navegador_y_logo .nav-itemEventosYCapacitaciones {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+  text-transform: capitalize;
+  color: auto;
+  margin-left: 10px;
+  transform: scale(1, 1);
+  transition: color 0.2s ease, text-decoration 0.2s ease, transform 0.2s ease;
+}
+.navegador_y_logo .nav-itemEventosYCapacitaciones:hover {
+  color: white;
+  text-decoration: underline;
+  transform: scale(1.2, 1.2);
+}
+.navegador_y_logo .nav-itemEventosYCapacitaciones:hover {
+  transform: scale(1.15, 1.15);
+}
+.navegador_y_logo .nav-itemContacto {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+  text-transform: capitalize;
+  color: auto;
+  margin-left: 10px;
+  transform: scale(1, 1);
+  transition: color 0.2s ease, text-decoration 0.2s ease, transform 0.2s ease;
+}
+.navegador_y_logo .nav-itemContacto:hover {
+  color: white;
+  text-decoration: underline;
+  transform: scale(1.2, 1.2);
+}
+.navegador_y_logo .nav-itemCarrito {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+  text-transform: capitalize;
+  color: auto;
+  margin-left: 10px;
+  transform: scale(1, 1);
+  transition: color 0.2s ease, text-decoration 0.2s ease, transform 0.2s ease;
+}
+.navegador_y_logo .nav-itemCarrito:hover {
+  color: white;
+  text-decoration: underline;
+  transform: scale(1.2, 1.2);
+}
+
+footer {
+  width: 100%;
+}
+footer .footer {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 255, 255, 0.5);
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* flex-flow: row nowrap; */
+  align-items: center; /*VERTICAL */
+  justify-content: center; /*horisontal*/
+  text-align: center;
+}
+footer .footer .footer_1 {
+  width: 40%;
+}
+footer .footer .footer_1 p {
+  text-align: center;
+}
+footer .footer .footer_2 {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.mainProductos #sectionProductos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; /*horisontal*/
+  align-items: center; /*vertical*/
+}
+.mainProductos #sectionProductos .card {
+  width: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */

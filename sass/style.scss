@@ -1,4 +1,14 @@
 
+@import "partials/variables";
+/*-----------------------DEKSTOP------------------------*/
 
 
-@import "partials/index";
+@import "partials/desktop/general";
+@import "partials/desktop/nav";
+@import "partials/desktop/footer";
+
+
+//Paginas
+
+@import "partials/desktop/mainProductos";
+
