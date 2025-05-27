@@ -1,0 +1,23 @@
+
+.mainConfirmarCompra{
+
+    #sectionProductos{
+        
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;/*horisontal*/
+        align-items: center;/*vertical*/
+        
+        .card{
+
+            width: 30%;
+        }
+        
+    }
+    #buttonConfirmarCompra{
+        background-color: $colorPrincipal;
+        border-color: black;
+    }
+}

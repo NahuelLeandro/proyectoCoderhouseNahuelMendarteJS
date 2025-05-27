@@ -3,20 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos | Emunah Espacio Holistico</title>
-    <meta name="description" content="Explora nuestra selección de productos holísticos diseñados para equilibrar cuerpo, mente y espíritu. Encuentra esencias, cristales, inciensos y más para tu bienestar diario.">
-    <meta name="keywords" content="emunah ,espacio , holistico, productos, cristales, inciensos, esencias, bienestar, armonización, sanación, energética, espiritualidad">
-
-    <!-- js -->
-    <script defer src="../js/carrito.js"></script>
-
-    <!-- toastify -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-
+    <title>Servicios | Emunah Espacio Holistico</title>
+    <meta name="description" content="Descubre nuestras terapias y servicios holísticos diseñados para tu bienestar. Conectá con la armonía a través de sanaciones energéticas, meditaciones, masajes y más.">
+    <meta name="keywords" content=" emunah ,espacio , holistico, terapias, holísticas, sanación, energética, meditación, masajes, bienestar, equilibrio, reiki, armonización">
+    
     <!-- Hoja de estilo de bs -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-
 
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
@@ -28,7 +20,12 @@
 <body>
 
 
+
+
+
     <header>
+
+        
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary navegador_y_logo ">
             <div class="container-fluid navegador_y_logo">
@@ -42,7 +39,7 @@
                 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
-
+                        
                         <li>
                             <a class="nav-link link-navegador nav-itemInicio" href="../index.html">Inicio</a>
                         </li>
@@ -61,35 +58,60 @@
                         <li>
                             <a class="nav-link link-navegador nav-itemCarrito" href="../pages/carrito.html">carrito</a>
                         </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
 
 
+
     </header>
 
-    <main class="mainCarrito">
-
-        <h1>Carrito</h1>
-
-        <section id="sectionCarrito">
+    <main class="mainServicios">
         
-        </section>
+        <section class="contenedor-grid-servicios">
+            <!-- TITULO Y DESCRIPCION INICIAL -->
+            <div class="tituloYDescripcionServicios">
+                <h1>Servicios</h1>
+                <h2>Sanación y Bienestar para el Alma</h2>
+                <p>Descubre un espacio dedicado a la armonización y el equilibrio a través de terapias holísticas. Ofrecemos sesiones de reiki, limpieza energética, aromaterapia y otras prácticas ancestrales diseñadas para conectar con tu esencia y restaurar tu bienestar físico, mental y espiritual. </p>
 
-        <section id="sectionTotales">
+            </div>
 
-        </section>
-        <section id="eliminarCarrito">
 
-        </section>        
-        <section id="confirmarCompra">
+            <!-- SERVICIO 1 -->
+            <div  class="gridDescripcionYTituloServicio_1">
+                <div class="hoverServicios1">
+                    <h3>Sesiones de Reiki: Armoniza tu Energía</h3>
+                    <p id="servicio_1">Sumérgete en una experiencia de sanación a través del reiki, una técnica energética que equilibra cuerpo, mente y espíritu. Mediante la imposición de manos, canalizamos energía universal para desbloquear tensiones, liberar emociones y restaurar tu bienestar interior.</p>
+                </div>
+            </div>
+        
+            <img  class="grid_img_servicio_1" src="../imagenes/servicios/reiki.jpeg" alt="Paciente recostada en una camilla y terapeuta con las manos sobre su cabeza">
+        
+            <!-- SERVICIO 2 -->
+            <div id="servicio_2" class="gridDescripcionYTituloServicio_2">
+                <h3>Limpieza Energética: Renueva tu Vibración</h3>
+                <p>Libérate de las energías densas y restaura la armonía en tu cuerpo y entorno con una sesión de limpieza energética. Utilizando sahumerios, cristales, sonidos sagrados y técnicas ancestrales, despejamos bloqueos y elevamos tu vibración.</p>
+            </div>
+            <img  class="grid_img_servicio_2" src="../imagenes/servicios/limpiezaenergética.jpg" alt="Sahumador con hierbas ensendidas dentro">
 
+            <!-- SERVICIO 3 -->
+
+        
+            <div id="servicio_3" class="gridDescripcionYTituloServicio_3">
+                <h3>Terapia con Cristales: Sanación a Través de la Energía</h3>
+                <p>Los cristales poseen vibraciones únicas que ayudan a equilibrar nuestras emociones, mente y espíritu. En esta sesión, colocamos piedras y gemas en puntos energéticos clave, permitiendo que su frecuencia te ayude a desbloquear tensiones, armonizar tus chakras y potenciar tu bienestar. </p>
+            </div>
+        
+            <img  class="grid_img_servicio_3" src="../imagenes/servicios/cristales.jpg" alt="Cristales energeticos en circulo">
+        
+            
         </section>
 
 
     </main>
-
 
 
 
@@ -115,10 +137,12 @@
             </div>
         </section>
     </footer>
+    
 
 
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+
+
     <!-- Script bt -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 

@@ -1,0 +1,33 @@
+
+
+.mainCarrito{
+
+    #sectionCarrito{
+        width: 100%;
+
+        .card{
+            
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;/*horisontal*/
+            align-items: center;/*vertical*/
+            width: 100%;
+        }
+
+
+    }
+    #sectionTotales{
+        height: 100px;
+    }
+    #eliminarCarrito{
+        height: 100px;
+    }
+    #confirmarCompra{
+        height: 100px;
+    }
+        
+
+
+
+}

@@ -1,0 +1,22 @@
+[
+    { "id": 1, "nombre": "Sandalo", "categoria": "Sahumerios", "precio": 150 },
+    { "id": 2, "nombre": "Palo Santo", "categoria": "Sahumerios", "precio": 150 },
+    { "id": 3, "nombre": "Champa", "categoria": "Sahumerios", "precio": 200 },
+    { "id": 4, "nombre": "Mirra", "categoria": "Sahumerios", "precio": 200 },
+    { "id": 5, "nombre": "Incienso", "categoria": "Sahumerios", "precio": 300 },
+    { "id": 6, "nombre": "Citronella", "categoria": "Sahumerios", "precio": 250 },
+
+    { "id": 7, "nombre": "Aguamarina", "categoria": "Piedras", "precio": 2200 },
+    { "id": 8, "nombre": "Turmalina", "categoria": "Piedras", "precio": 1200 },
+    { "id": 9, "nombre": "Cuarzo rosa", "categoria": "Piedras", "precio": 3000 },
+    { "id": 10, "nombre": "Granate", "categoria": "Piedras", "precio": 1500 },
+    { "id": 11, "nombre": "Alejandrita", "categoria": "Piedras", "precio": 2000 },
+    { "id": 12, "nombre": "Citrino", "categoria": "Piedras", "precio": 2300 },
+
+    { "id": 13, "nombre": "Árnica y Caléndula", "categoria": "Cremas", "precio": 800 },
+    { "id": 14, "nombre": "Lavanda y Manzanilla", "categoria": "Cremas", "precio": 750 },
+    { "id": 15, "nombre": "Rosa Mosqueta", "categoria": "Cremas", "precio": 900 },
+    { "id": 16, "nombre": "Sándalo y Patchouli", "categoria": "Cremas", "precio": 750 },
+    { "id": 17, "nombre": "Aloe Vera y Menta", "categoria": "Cremas", "precio": 950 },
+    { "id": 18, "nombre": "Eucalipto y Romero", "categoria": "Cremas", "precio": 750 }
+]

@@ -1,0 +1,53 @@
+
+ //PARA LA PAJINA DE SERVICIOS PENSADA PARA TRABAJAR CON GRID
+@media( max-width: $widtMovil ){
+
+    .mainServicios{
+
+        width: 100%;
+        max-width: $widtMovil;
+        
+        .contenedor-grid-servicios{
+            display: grid;
+            grid-template-columns: 90%;
+            grid-template-rows: 500px 400px 450px 450px 400px 350px 500px ; //repeat(6, 400px)
+        
+            grid-template-areas: 
+            "tituloYDescripcion "
+            "servicio1Foto"
+            "servicio1Descripcion" 
+            "servicio2Foto"
+            "servicio2Descripcion"
+            "servicio3Foto"
+            "servicio3Descripcion"
+            ;
+        
+            justify-content: center;
+        
+            
+            /*acomoda a todos los hijos*/
+            align-items: center;/*centra de forma vertical*/
+            justify-items: center;/*centra de forma horizontal*/
+            margin-top: 20px;
+
+            
+            img{
+                width: 90%;
+            }
+
+            .grid_img_servicio_1{
+                width: 80%;
+            }            
+            .grid_img_servicio_2{
+                width: 80%;
+            }            
+            .grid_img_servicio_3{
+                width: 80%;
+            }
+
+
+
+        }
+
+    }
+}

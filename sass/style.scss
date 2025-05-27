@@ -6,9 +6,52 @@
 @import "partials/desktop/general";
 @import "partials/desktop/nav";
 @import "partials/desktop/footer";
+@import "partials/desktop/galeriaIMG";
 
 
 //Paginas
-
+@import "partials/desktop/mainIndex";
+@import "partials/desktop/mainNosotros";
 @import "partials/desktop/mainProductos";
+@import "partials/desktop/mainServicios";
+@import "partials/desktop/mainEventosYCapacitaciones";
+@import "partials/desktop/mainContacto";
+@import "partials/desktop/carrito.scss";
+@import "partials/desktop/confirmarCompra.scss";
+
+/*----------------MEDIA QUERY tablet hasta 1000px-----------------*/
+// /*MEDIA QUERY*/
+// /* mobile hasta 1000px */
+//Paginas con MEDIA QUERY
+
+@import "partials/tablet/tabletNav";
+@import "partials/tablet/tabletGeneral";
+@import "partials/tablet/tabletGaleriaIMG";
+@import "partials/tablet/tabletFooter";
+
+
+@import "partials/tablet/tabletMainIndex";
+@import "partials/tablet/tabletMainNosotros";
+@import "partials/tablet/tabletMainProductos";
+@import "partials/tablet/tabletMainServicios";
+@import "partials/tablet/tabletMainEventosYCapacitaciones";
+@import "partials/tablet/tabletMainContacto";
+
+
+
+/*----------------MEDIA QUERY mobile hasta 600px-----------------*/
+// /*MEDIA QUERY*/
+// /* mobile hasta 600px */
+@import "partials/movil/movilNav";
+@import "partials/movil/movilGeneral";
+@import "partials/movil/movilGaleriaIMG";
+@import "partials/movil/movilFooter";
+
+//Paginas con MEDIA QUERY
+@import "partials/movil/movilMainIndex";
+@import "partials/movil/movilMainNosotros";
+@import "partials/movil/movilMainProductos";
+@import "partials/movil/movilMainServicios";
+@import "partials/movil/movilMainEventosYCapacitaciones";
+@import "partials/movil/movilMainContacto";
 

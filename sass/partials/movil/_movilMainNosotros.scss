@@ -1,0 +1,58 @@
+
+    // /*--------------NOSOTROS -------------*/
+    // /* PENSADO PARA TRABAJAR CON GRID */
+
+
+@media( max-width: $widtMovil ){
+    
+    .mainNosotros{
+        width: 100%;
+        max-width: $widtMovil;
+        
+
+        .contenedor-grid-nosotros{
+            display: grid;
+            grid-template-columns: 90% ;
+            grid-template-rows: 800px 450px 550px 450px 400px 450px 350px 450px 350px 450px 350px 450px 300px;
+        
+            grid-template-areas:
+            "tituloDescripcion"
+            
+            "fotoNosotros1"
+            "textoNosotros1"
+            
+            "fotoNosotros2"
+            "textoNosotros2" 
+            
+            "fotoNosotros3"
+            "textoNosotros3"
+            
+            "fotoNosotros4"
+            "textoNosotros4"
+            
+            "fotoNosotros5" 
+            "textoNosotros5" 
+            
+            "fotoNosotros6"
+            "textoNosotros6" 
+            ;
+        
+            justify-content: center;
+        
+            align-items: center;
+            justify-content: center;
+
+            .contenedor-grid-nosotros img{
+                width: 80%;
+                height: 80%;
+            }
+
+                    
+            #grid-imagen-nosotros-7{
+                display: none;
+            }
+
+        }
+
+    }
+}

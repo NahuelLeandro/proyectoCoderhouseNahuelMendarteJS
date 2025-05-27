@@ -1,0 +1,46 @@
+
+
+
+/* MINI GALERIA DE IMG*/
+.galeria_imagenes{
+
+
+        
+        position: relative;
+        overflow: hidden;
+
+        background-color: $colorTerciario;
+        margin: 20px 0px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+
+        justify-content: space-around;/*horisontal*/
+        align-items: center;/*vertical*/
+
+        padding: 20px 0;
+
+    
+
+
+}
+.galeria_titulo_y_boton{
+
+        position: relative;
+        overflow: hidden;
+
+        background-color: $colorTerciario;
+        margin: 20px 0px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+        justify-content: space-around;/*horisontal*/
+        align-items: center;/*vertical*/
+
+        padding: 20px 0;
+
+
+
+
+}

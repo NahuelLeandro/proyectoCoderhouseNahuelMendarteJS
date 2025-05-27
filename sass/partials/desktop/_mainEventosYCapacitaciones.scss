@@ -1,0 +1,66 @@
+
+// /*-------------EVENTOS Y CAPACITACIONES-----------*/
+// /*Pensado para trabajar con responsive BOOSTRAP*/
+@mixin mixinParaEventoYCapacitaciones{
+
+    background-color: white;
+    margin: 40px 0px;
+    transform: scale( 1, 1 );
+    transition: background-color 1.0s ease , transform 1.0s ease;
+    &:hover{
+        background-color: $colorSecundario;
+        transform: scale( 1.1, 1.1 );
+    }
+
+}
+
+.mainEventosYCapacitaciones{
+
+    position: relative;
+    overflow: hidden;
+
+
+    .padreEventos{
+        img{
+            width: 100%;
+            max-width: 500px;
+            max-height: 375px;
+        }
+
+        .evento1{
+            @include mixinParaEventoYCapacitaciones();
+        }
+        
+        .evento2{
+            @include mixinParaEventoYCapacitaciones();
+        }
+
+        .evento3{
+            @include mixinParaEventoYCapacitaciones();
+        }
+
+    } 
+    
+    .padreCapacitaciones{
+        img{
+            width: 100%;
+            max-width: 500px;
+            max-height: 375px;
+        }
+
+
+        .capacitacion1{
+            @include mixinParaEventoYCapacitaciones();
+        }
+
+        .capacitacion2{
+            @include mixinParaEventoYCapacitaciones();
+        }
+
+        .capacitacion3{
+            @include mixinParaEventoYCapacitaciones();
+        }
+
+    }
+
+}
